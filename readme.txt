@@ -1,4 +1,9 @@
-Prequiresh
+Prerequisites
+1.Dockerhub sign in
+2.minikube installed with ingress addon enabled
+3.Run in the linux environment it has bash script.
+
+
 
 dockerhub account for pulling the images
 Docker images is in public 
