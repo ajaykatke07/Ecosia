@@ -7,3 +7,8 @@ Install python 3.7+
 pip install klein
 
 in browser URL would be localhost:2022/tree
+
+docker pull ajaykatke/web:3.0
+
+kubectl create deployment ecosia --image=ajaykatke/web:3.0
+kubectl expose deployment ecosia --type=NodePort --port=2022
